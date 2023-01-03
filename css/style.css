@@ -1,0 +1,103 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: "Rubik",sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
+.hero{
+   max-width: 130rem;
+   margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    align-items: center;
+
+}
+.hero-image{
+    width:100%;
+}
+.heading-primary{
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.1px;
+    color: #333;
+}
+.hero-description{
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 4.8rem;
+}
+.section-hero{
+    background-color:#fdf1e9;
+    padding:4rem 0 9rem 0;
+}
+.btn:link,.btn:visited{
+    display: inline-block;
+    font-size: 2rem;
+    text-decoration: none;
+ 
+    padding: 1.6rem 3.2rem;
+    border-radius: 10px;
+}
+.btn--2:link,.btn--2:visited{
+    background-color: #fff;
+    color: #555;
+}
+.btn--1:link,.btn--1:visited{
+    background-color: #e67e22;
+    color: #fff;
+}
+.btn--1:hover,.btn--1:active{
+    background: #cf711f;
+}
+.btn--2:hover,.btn--2:active{
+    background-color: azure;
+    
+}
+.delivered-meals{
+        display: flex;
+        align-items: center;
+        gap: 1.6rem;
+        margin-top: 4rem;
+    }
+.delivered-imgs{
+    display: flex;
+}
+.delivered-imgs img{
+    width: 4.4rem;
+    height: 4.4rem;
+    border-radius: 50%;
+    margin-left: -1.6rem;
+    border: 3px solid #eee;
+}
+.delivered-text{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.delivered-text span{
+    color: #e67622;
+    font-weight: 700;
+}
+ /* **********Header-Section************************ */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf2e9;  
+    
+    /*because i want my height to be Sticky  */
+    height: 9rem;
+    padding:0px 3rem
+}   
+ .logo{
+    height: 2rem;
+}            
